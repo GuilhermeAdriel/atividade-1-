@@ -1,0 +1,29 @@
+fun main() {
+    // Declaração e atribuição de variáveis
+    val nome: String = "João"
+    val idade: Int = 30
+    val salarioBrutoMensal: Double = 5000.0
+    val mesesTrabalhados: Int = 12
+    val produtosComprados: Int = 8
+
+    // Operações simples
+    // Cálculo do salário anual bruto
+    val salarioAnualBruto: Double = salarioBrutoMensal * mesesTrabalhados
+
+    // Cálculo do salário anual líquido após desconto
+    val desconto: Double = 1000.0 // valor fixo de desconto
+    val salarioAnualLiquido: Double = salarioAnualBruto - desconto
+
+    // Concatenação de strings
+    val mensagem: String = "Olá, $nome! Seu salário anual líquido é R$$salarioAnualLiquido."
+
+    // Exibição dos resultados
+    println("Nome: $nome")
+    println("Idade: $idade")
+    println("Salário Bruto Mensal: R$$salarioBrutoMensal")
+    println("Quantidade de Meses Trabalhados: $mesesTrabalhados")
+    println("Quantidade de Produtos Comprados: $produtosComprados")
+    println("Salário Anual Bruto: R$$salarioAnualBruto")
+    println("Salário Anual Líquido: R$$salarioAnualLiquido")
+    println(mensagem)
+}
