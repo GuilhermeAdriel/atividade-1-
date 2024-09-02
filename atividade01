@@ -1,0 +1,24 @@
+fun main() {
+    // Declaração e atribuição de variáveis
+    val idade: Int = 25
+    val altura: Double = 1.75
+    val nome: String = "Ana"
+    val eEstudante: Boolean = true
+
+    // Operações simples
+    val idade2: Int = 30
+    val somaIdades: Int = idade + idade2
+
+    val alturaDuplicada: Double = altura * 2
+
+    val saudacao: String = "Olá, $nome!"
+
+    // Exibição dos resultados
+    println("Idade: $idade")
+    println("Altura: $altura")
+    println("Nome: $nome")
+    println("É estudante? $eEstudante")
+    println("Soma de duas idades: $somaIdades")
+    println("Altura duplicada: $alturaDuplicada")
+    println("Saudação: $saudacao")
+}
